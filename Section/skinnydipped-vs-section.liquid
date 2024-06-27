@@ -1,0 +1,1565 @@
+
+
+{% liquid
+  assign laptop_padding_top = section.settings.laptop_top
+  assign laptop_padding_bottom = section.settings.laptop_bottom
+  assign mobail_padding_top = section.settings.mobail_top
+  assign mobail_padding_bottom = section.settings.mobail_bottom
+  assign bgcolor = section.settings.bgcolor
+  assign border_color = section.settings.border_color
+  assign border_width = section.settings.border_width
+%}
+
+<style>
+  img {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+  .id_{{ section.id}}{
+    background-color: {{bgcolor}};
+    padding-top:{{laptop_padding_top}}px;
+    padding-bottom:{{laptop_padding_bottom}}px;
+  }
+
+  .id_{{ section.id}} .container{
+      border-color:{{border_color}};
+      border-width:{{border_width}};
+      border-style: solid;
+      box-sizing: border-box;
+      width:100%;
+      margin:0px auto;
+  }
+
+    {% if section.settings.container == "container" %}
+      .id_{{ section.id}} .container{
+      max-width:1200px;    
+    }
+  {% elsif  section.settings.container == "container-full" %}
+    .id_{{ section.id}} .container{
+      max-width:100%;
+      padding:0px 5%;
+    }
+  {% endif %}    
+      
+
+  
+
+  @media(max-width:767px){
+      .id_{{ section.id}}{
+       padding-left:20px;
+       padding-right:20px;
+       padding-top:{{mobail_padding_top}}px;
+       padding-bottom:{{mobail_padding_bottom}}px;
+      }
+
+    .id_{{ section.id}} .container{
+      max-width:100%;
+      padding:0px;
+    }
+     
+
+  }
+</style>
+
+<section class="id_{{ section.id }}">
+  <div class="container">
+        {% for block in section.blocks %}
+
+          {% case block.type %}
+                {% when 'title' %}
+              <style>
+                .{{block.id}}.title{
+                  font-size:{{block.settings.font_size}}px;
+                  font-weight:{{block.settings.font_weight}};
+                  line-height:{{block.settings.line_height}}px;
+                  color:{{block.settings.textcolor}};
+                  margin-bottom:{{block.settings.margin_bottom}}px !important;
+                  text-align: {{block.settings.text_align}};
+                  width:{{block.settings.width}}%;
+                  margin:{{block.settings.align_content}}
+                }
+                 @media(max-width:767px){
+                 .{{block.id}}.title{
+                  font-size:{{block.settings.mobail_font_size}}px;
+                  line-height:{{block.settings.mobail_line_height}}px;
+                  margin-bottom:{{block.settings.mobail_margin_bottom}}px !important;
+                  text-align: {{block.settings.mobail_text_align}};
+                  width:{{block.settings.mobail_width}}%;
+                  margin:{{block.settings.mobail_align_content}}
+                }
+                 }
+              </style>
+
+              <h3 class="title {{ block.id }}">{{ block.settings.title }}</h3>
+              {% when 'richtext' %}
+              <style>
+                 .{{block.id}}{
+                   font-size:{{block.settings.font_size}}px;
+                   font-weight:{{block.settings.font_weight}};
+                   line-height:{{block.settings.line_height}}px;
+                   color:{{block.settings.textcolor}};
+                   margin-bottom:{{block.settings.margin_bottom}}px !important;
+                   text-align: {{block.settings.text_align}};
+                   width:{{block.settings.width}}%;
+                   margin:{{block.settings.align_content}}
+                   }
+                  .{{block.id}} ul{
+                      padding-inline-start: 0;
+                      margin-block: 0;
+                  }
+                  .{{block.id}} ul li{
+                      list-style: none;
+                      margin-bottom:10px;
+                     display: flex;
+                       }
+                 .{{block.id}} ul li::before{
+                   content: "\2713";
+                   font-size:{{block.settings.font_size}}px;
+                   font-weight:{{block.settings.font_weight}};
+                   margin-right: 10px;
+                   }
+                
+                  @media(max-width:767px){
+                  .{{block.id}}{
+                   font-size:{{block.settings.mobail_font_size}}px;
+                   line-height:{{block.settings.mobail_line_height}}px;
+                   margin-bottom:{{block.settings.mobail_margin_bottom}}px !important;
+                   text-align: {{block.settings.mobail_text_align}};
+                   width:{{block.settings.mobail_width}}%;
+                   margin:{{block.settings.mobail_align_content}}
+                 }
+                 .{{block.id}} ul li::before{
+                      font-size:{{block.settings.mobail_font_size}}px;
+                  }
+                    
+                  }
+              </style>
+              <div class="{{ block.id }}">{{ block.settings.text }}</div>
+                       {% when 'button' %}
+              <style>
+                .{{block.id}} .btn{
+                  font-size:{{block.settings.font_size}}px;
+                  font-weight:{{block.settings.font_weight}};
+                  line-height:{{block.settings.font_size}}px;
+                  color:{{block.settings.text_color}};
+                  border-color:{{block.settings.border_color}};
+                  border-width:{{block.settings.border_width}}px;
+                  border-style:solid;
+                  border-radius:{{block.settings.border_radius}}px;
+                  background-color: {{block.settings.btn_color}};
+                  margin-bottom:{{block.settings.margin_bottom}}px;
+                  padding:{{block.settings.padding}};
+                  transition-duration: .5s;
+                  text-align: center;
+                  text-decoration: none;
+                  display: inline-block;
+                }
+                 .{{block.id}} .btn:hover{
+                    background-color: {{block.settings.btn_color_hover}};
+                    color:{{block.settings.text_color_hover}};
+                    border-color:{{block.settings.border_color_hover}};
+                 }
+                 .{{block.id}}{
+                    text-align: {{block.settings.text_align}};
+                 }
+                 @media(max-width:767px){
+                 .{{block.id}} .btn{
+                  font-size:{{block.settings.mobail_font_size}}px;
+                  line-height:{{block.settings.mobail_font_size}}px;
+                  margin-bottom:{{block.settings.mobail_margin_bottom}}px;
+                  padding:{{block.settings.mobail_padding}};
+                }
+                .{{block.id}}{
+                    text-align: {{block.settings.mobail_text_align}};
+                 }
+                 }
+              </style>
+
+              {% if block.settings.btnlink != blank %}
+                <div class="{{ block.id }}">
+                <a class="btn" href="{{ block.settings.btnlink }}">{{ block.settings.btntext }}</a>
+                </div>
+              {% endif %}
+
+            
+             {% when 'vs_section' %}
+                 
+             <style>
+               .{{ block.id }} {
+                 margin:0px 0px {{block.settings.vs_margin}}px 0px;
+               }
+                .{{ block.id }} .row{
+                  display: flex;
+                 flex-wrap: wrap;
+                }
+               .{{ block.id }} .row .vs_col{
+                 max-width:20%;
+                 width:100%;
+                 box-sizing: border-box;
+                 order: 2;
+                 align-items: center;
+                 display: flex;
+               }
+               .{{ block.id }} .row .vs_col img{
+                 width:120px;
+                 height:120px;
+                 object-fit: contain;
+                  display: block;
+                 margin:0px auto;
+               }
+                .{{ block.id }} .row .vs_list_col{
+                 max-width:40%;
+                 width:100%;
+                 box-sizing: border-box;
+                 height:auto;
+                }
+               
+               .{{ block.id }} .vs_list_box{
+                 padding:{{block.settings.padding}};
+                 box-sizing: border-box;
+                 border-radius:{{block.settings.border-radius}};
+                 background-color:{{block.settings.box_bg}};
+                 height:100%;
+               }
+              .{{ block.id }} .vs_list_box img{
+                  width:100%;
+                  display: block;
+                 max-width:{{block.settings.img_width}};
+                 margin: 0px auto {{block.settings.img_margin}}px;
+                 object-fit:{{block.settings.object_fit}};
+                 aspect-ratio:{{block.settings.aspect_ratio}};
+                }
+               .{{ block.id }} .vs_list_box h3{
+                  font-size:{{block.settings.title}}px;
+                  line-height:120%;
+                  font-weight: 700;
+                  margin:0px 0px {{block.settings.title_margin}}px;
+                  text-align: center;
+               }
+               .{{ block.id }} .vs_list_box .main_list_box{
+                 padding:{{block.settings.list_padding}};
+               }
+              .{{ block.id }} .vs_list_box .main_list_box h4{
+                  font-size:{{block.settings.text}}px;
+                  line-height:120%;
+                  font-weight: 700;
+                  margin:0px 0px {{block.settings.text_margin}}px;
+                 color:{{block.settings.list_title_color}};
+              }
+              .{{ block.id }} .vs_list_box .main_list_box p{
+                  font-size:{{block.settings.des}}px;
+                  line-height:150%;
+                  font-weight: 400;
+                  margin:0px 0px {{block.settings.des_margin}}px; 
+                  display: inline-block;
+                  color:{{block.settings.text_color}};
+              }
+              @media(max-width:767px){
+                .{{ block.id }} {
+                 margin:0px 0px {{block.settings.margin_vs_margin}}px 0px;
+               }               
+                .{{ block.id }} .row {gap:30px;}
+                .{{ block.id }} .row .vs_col{ max-width:100%; }
+                .{{ block.id }} .row .vs_list_col{ max-width:100%;}
+               
+               .{{ block.id }} .vs_list_box{
+                 padding:{{block.settings.mobail_padding}};
+                 border-radius:{{block.setting.mobail_border-radius}};
+               }
+                
+              .{{ block.id }} .vs_list_box img{
+                 max-width:{{block.settings.mobail_img_width}};
+                 margin: 0px auto {{block.settings.mobail_img_margin}}px;
+                }
+                
+               .{{ block.id }} .vs_list_box h3{
+                  font-size:{{block.settings.mobail_title}}px;
+                  margin:0px 0px {{block.settings.mabile_title_margin}}px;
+               }
+                
+               .{{ block.id }} .vs_list_box .main_list_box{
+                 padding:{{block.settings.mobail_list_padding}};
+               }
+              .{{ block.id }} .vs_list_box .main_list_box h4{
+                  font-size:{{block.settings.mobail_text}}px;
+                  margin:0px 0px {{block.settings.mobail_text_margin}}px;   
+                  text-align: center;
+              }
+              .{{ block.id }} .vs_list_box .main_list_box p{
+                  font-size:{{block.settings.mobail_des}}px;
+                  margin:0px 0px {{block.settings.mobail_des_margin}}px;
+                  text-align: center;
+              }                
+                
+              }  
+             </style>
+
+            
+
+                <div class="vs_section {{ block.id }}">
+                  <div class="row">
+                    <div class="vs_col">
+                       {% if block.settings.img != blank %}
+                           <img
+                               src="{{ block.settings.img | image_url }}"
+                               alt="{{ block.settings.img.alt }}"
+                                 width="100%"
+                                height="100%"
+                                 >
+                        {% endif %}
+                    </div>
+
+                    
+                 {% for block in section.blocks %}
+                    {% case block.type %}
+                      {% when 'vs_list' %}
+                        <style>
+                          {% if block.settings.position_box == "left" %}
+                            .{{ block.id }}{
+                                order: 1;
+                              }
+                         {% elsif  block.settings.position_box == "right" %}
+                            .{{ block.id }}{
+                                order: 3;
+                              }
+                         {% endif %} 
+                    
+
+                      </style>
+                         <div class="vs_list_col {{ block.id }}">
+                            <div class="vs_list_box">
+                               {% if block.settings.img != blank %}
+                                 <img
+                                    src="{{ block.settings.img | image_url }}"
+                                    alt="{{ block.settings.img.alt }}"
+                                    width="100%"
+                                    height="100%"
+                                 >
+                             {% endif %}
+
+                              <h3>{{ block.settings.title }}</h3>
+
+                              <div class="main_list_box">
+                                  <div class="list_box">
+                                    {% if block.settings.text_1 != blank %}
+                                     <h4>{{ block.settings.text_1 }}</h4>
+                                    {% endif %}
+                                    {% if block.settings.des_1 != blank %}
+                                     <p>{{ block.settings.des_1 }}</p>
+                                    {% endif %}
+                                  </div>
+                                  <div class="list_box">
+                                    {% if block.settings.text_2 != blank %}
+                                     <h4>{{ block.settings.text_2 }}</h4>
+                                    {% endif %}
+                                    {% if block.settings.des_2 != blank %}
+                                     <p>{{ block.settings.des_2 }}</p>
+                                    {% endif %}
+                                  </div>
+                                   <div class="list_box">
+                                    {% if block.settings.text_3 != blank %}
+                                     <h4>{{ block.settings.text_3 }}</h4>
+                                    {% endif %}
+                                    {% if block.settings.des_3 != blank %}
+                                     <p>{{ block.settings.des_3 }}</p>
+                                    {% endif %}
+                                  </div>
+                                   <div class="list_box">
+                                    {% if block.settings.text_4 != blank %}
+                                     <h4>{{ block.settings.text_4 }}</h4>
+                                    {% endif %}
+                                    {% if block.settings.des_4 != blank %}
+                                     <p>{{ block.settings.des_4 }}</p>
+                                    {% endif %}
+                                  </div>
+                                  <div class="list_box">
+                                    {% if block.settings.text_5 != blank %}
+                                     <h4>{{ block.settings.text_5 }}</h4>
+                                    {% endif %}
+                                    {% if block.settings.des_5 != blank %}
+                                     <p>{{ block.settings.des_5 }}</p>
+                                    {% endif %}
+                                  </div>
+                              </div>
+
+                            
+                             
+                            </div>
+                         </div>                                
+                      {% endcase %}
+                     {% endfor %}
+                    
+                  </div>
+                </div>
+
+          {% endcase %}
+      {% endfor %} 
+    
+  </div>
+</section>
+
+
+{% schema %}
+  {
+    "name": "Skinnydipped VS Section",
+    "settings": [
+             {
+        "type": "select",
+         "id": "container",
+            "label": "Container Width",
+            "default": "container",
+            "options": [
+              {
+                "label": "Container",
+                "value": "container"
+              },
+              {
+                "value": "container-full",
+                "label": "Container Full"
+              }
+            ]
+          },
+      {
+  "type": "color",
+   "label": "Background Color",
+   "id": "bgcolor"
+ },
+ {
+   "type": "header",
+   "content": "Laptop Padding"
+ },
+ {
+       "type": "range",
+          "id": "laptop_top",
+          "label": "Top",
+          "min":0,
+          "max":150,
+          "step": 2,
+        "unit": "px",
+        "default":112
+      },
+      {
+       "type": "range",
+          "id": "laptop_bottom",
+          "label": "Bottom",
+          "min":0,
+          "max":150,
+        "unit": "px",
+          "default":112,
+          "step": 2
+      },
+
+       {
+        "type": "header",
+        "content": "Mobail Padding"
+      },
+      {
+       "type": "range",
+          "id": "mobail_top",
+          "label": "Top",
+          "min":0,
+          "max":80,
+          "step": 1,
+        "unit": "px",
+        "default":64
+      },
+      {
+       "type": "range",
+          "id": "mobail_bottom",
+          "label": "Bottom",
+          "min":0,
+          "max":80,
+        "unit": "px",
+          "default":64,
+          "step": 1
+      },
+      {
+        "type": "header",
+        "content": "Border Style"
+      },
+      {
+        "type": "text",
+        "id": "border_width",
+        "label": "Border Width ( 1px 0px 1px 0px)",
+        "default":"0"
+      },
+      {
+        "type": "color",
+        "id": "border_color",
+        "default": "#d9d9d9",
+        "label": "Border Color"
+      }
+    ],
+    
+    "blocks": [ 
+      {
+        "type": "vs_list",
+        "name":"VS Box List",
+        "limit": 2,
+        "settings": [
+           {
+            "type": "select",
+            "id": "position_box",
+            "label": "Position",
+             "default":"left",
+            "options": [
+              {
+                "label": "Left",
+                "value": "left"
+              },
+              {
+                "label": "Right",
+                "value": "right"
+              }
+            ]
+          },
+          {
+            "type": "image_picker",
+            "label": "Select Image",
+            "id": "img"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default":"SkinnyDipped"
+          },
+          {
+           "type": "header",
+           "content": "List Add"
+          },
+            {
+            "type": "text",
+            "id": "text_1",
+            "label": "List Title 1",
+            "default":"Satisfying and Sweet"
+          },
+          {
+            "type": "textarea",
+            "id": "des_1",
+            "label": "List Description 1",
+            "default":"Protein packed to make sure that your blood-sugar doesn't spike."
+          },
+          {
+            "type": "text",
+            "id": "text_2",
+            "label": "List Title 2"
+          },
+          {
+            "type": "textarea",
+            "id": "des_2",
+            "label": "List Description 2"
+          },
+          {
+            "type": "text",
+            "id": "text_3",
+            "label": "List Title 3"
+          },
+          {
+            "type": "textarea",
+            "id": "des_3",
+            "label": "List Description 3"
+          },
+          {
+            "type": "text",
+            "id": "text_4",
+            "label": "List Title 4"
+          },
+          {
+            "type": "textarea",
+            "id": "des_4",
+            "label": "List Description 4"
+          },
+          {
+            "type": "text",
+            "id": "text_5",
+            "label": "List Title 5"
+          },
+          {
+            "type": "textarea",
+            "id": "des_5",
+            "label": "List Description 5"
+          }
+
+        ]
+      },
+      {
+        "type": "vs_section",
+        "name": "VS Main Section",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Select VS Image"
+          },
+          {
+           "type": "header",
+          "content": "💻____Laptop VS Box Style____✒️"
+          },
+          {
+          "type": "range",
+          "id": "vs_margin",
+          "label": "VS Section Margin Bottom",
+          "min":0,
+          "max":100,
+          "unit": "px",
+          "default":50,
+          "step": 1
+        },
+          {
+            "type": "text",
+            "label": "Box Padding",
+            "id": "padding"
+          },
+          {
+            "type": "text",
+            "label": "Box Border Radius",
+            "id": "border-radius",
+            "default":"40px"
+          },
+           {
+         "type": "text",
+         "id": "img_width",
+        "label": "Image Width",
+      },
+      {
+      "type": "text",
+      "id": "aspect_ratio",
+      "label": "Image Aspect Ratio(1/1)"
+      },
+     {
+        "type": "select",
+         "id": "object_fit",
+            "label": "Image Object fit",
+            "options": [
+              {
+                "label": "fill",
+                "value": "fill"
+              },
+              {
+                "label": "cover",
+                "value": "cover"
+              },
+              {
+                "value": "contain",
+                "label": "contain"
+              }
+            ],
+          "default": "fill"
+          }, 
+          {
+          "type": "range",
+          "id": "img_margin",
+          "label": "Image Margin Bottom",
+          "min":0,
+          "max":100,
+          "unit": "px",
+          "default":30,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "title",
+          "label": "Title Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":47,
+          "step": 1
+        },
+          {
+          "type": "range",
+          "id": "title_margin",
+          "label": "Title Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":32,
+          "step": 1
+        },
+        {
+         "type": "text",
+          "label": "List Box Padding",
+          "id": "list_padding",
+          "default":"0px 20px 0px 70px"
+        },
+        {
+          "type": "range",
+          "id": "text",
+          "label": "List Title Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":22,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "text_margin",
+          "label": "List Title Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":10,
+          "step": 1
+        },
+          {
+          "type": "range",
+          "id": "des",
+          "label": "List Text Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":18,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "des_margin",
+          "label": "List text Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":30,
+          "step": 1
+        },
+         {
+             "type": "header",
+              "content": "📱____Mobail VS Box Style____✒️"
+          },       
+            {
+          "type": "range",
+          "id": "margin_vs_margin",
+          "label": "VS Section Margin Bottom",
+          "min":0,
+          "max":100,
+          "unit": "px",
+          "default":30,
+          "step": 1
+        },
+          {
+            "type": "text",
+            "label": "Box Padding",
+            "id": "mobail_padding"
+          },
+          {
+            "type": "text",
+            "label": "Box Border Radius",
+            "id": "mobail_border-radius",
+            "default":"40px"
+          },
+           {
+         "type": "text",
+         "id": "mobail_img_width",
+        "label": "Image Width",
+      },
+          {
+          "type": "range",
+          "id": "mobail_img_margin",
+          "label": "Image Margin Bottom",
+          "min":0,
+          "max":100,
+          "unit": "px",
+          "default":30,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "mobail_title",
+          "label": "Title Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":36,
+          "step": 1
+        },
+          {
+          "type": "range",
+          "id": "mabile_title_margin",
+          "label": "Title Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":32,
+          "step": 1
+        },
+        {
+         "type": "text",
+          "label": "List Box Padding",
+          "id": "mobail_list_padding",
+          "default":"0px 20px 0px 20px"
+        },
+        {
+          "type": "range",
+          "id": "mobail_text",
+          "label": "List Title Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":22,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "mobail_text_margin",
+          "label": "List Title Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":10,
+          "step": 1
+        },
+          {
+          "type": "range",
+          "id": "mobail_des",
+          "label": "List Text Font Size",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":14,
+          "step": 1
+        },
+        {
+          "type": "range",
+          "id": "mobail_des_margin",
+          "label": "List text Margin Bottom",
+          "min":0,
+          "max":80,
+          "unit": "px",
+          "default":30,
+          "step": 1
+        },
+        {
+          "type": "header",
+          "content": "Box Color"
+        },
+        {
+          "type": "color",
+          "label": "Box Background Color",
+          "id": "box_bg",
+          "default":"#f8f8f8"
+        },
+        {
+          "type": "color",
+          "label": "Title Color",
+          "id": "title_color",
+          "default":"#25282b"
+        },
+        {
+          "type": "color",
+          "label": "List Title Color",
+          "id": "list_title_color",
+         "default":"#25282b"
+        },
+        {
+          "type": "color",
+          "label": "List Test Color",
+          "id": "text_color",
+         "default":"#25282b"
+        }
+
+        ]
+      },
+      {
+  "type": "title",
+  "name": "Title",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default":"The ShopLandingAI Solution"
+    },
+    {
+      "type": "color",
+      "id": "textcolor",
+      "label": "Color",
+      "default":"#000000"
+    },
+     {
+   "type": "header",
+   "content": "Laptop Typography"
+    },
+     {
+        "type": "select",
+         "id": "text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+        {
+       "type": "range",
+          "id": "width",
+          "label": "Width",
+          "min":0,
+          "max":100,
+          "unit": "%",
+          "default":100,
+          "step": 1
+      },     {
+        "type": "select",
+         "id": "align_content",
+            "label": "Align Content",
+            "default": "0px auto 0px 0px",
+            "options": [
+              {
+                "label": "left",
+                "value": "0px auto 0px 0px"
+              },
+              {
+                "value": "0px auto",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "0px 0px 0px auto"
+              }
+            ]
+          },
+    {
+       "type": "range",
+          "id": "font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":100,
+        "unit": "px",
+          "default":50,
+          "step": 1
+      },
+        {
+       "type": "range",
+          "id": "line_height",
+          "label": "Line Height",
+          "min":0,
+          "max":100,
+        "unit": "px",
+          "default":60,
+          "step": 1
+      },
+
+    {
+        "type": "select",
+         "id": "font_weight",
+            "label": "Font Weight",
+            "default": "500",
+            "options": [
+              {
+                "label": "100",
+                "value": "100"
+              },
+              {
+                "value": "200",
+                "label": "200"
+              },
+                {
+                "label": "300",
+                "value": "300"
+              },
+              {
+                "value": "400",
+                "label": "400"
+              },
+                  {
+                "label": "500",
+                "value": "500"
+              },
+              {
+                "value": "600",
+                "label": "600"
+              },
+              {
+                "label": "700",
+                "value": "700"
+              },
+              {
+                "label": "800",
+                "value": "800"
+              },
+               {
+                "label": "900",
+                "value": "900"
+              },
+               {
+                "label": "Bold",
+                "value": "bold"
+              }
+            ]
+          },
+          {
+        "type": "range",
+          "id": "margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":100,
+           "unit": "px",
+          "default":8,
+          "step": 1
+    },
+         {
+   "type": "header",
+   "content": "Mobail Typography"
+    },
+    {
+        "type": "select",
+         "id": "mobail_text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+        {
+       "type": "range",
+          "id": "mobail_width",
+          "label": "Width",
+          "min":0,
+          "max":100,
+          "unit": "%",
+          "default":100,
+          "step": 1
+      },     {
+        "type": "select",
+         "id": "mobail_align_content",
+            "label": "Align Content",
+            "default": "0px auto 0px 0px",
+            "options": [
+              {
+                "label": "left",
+                "value": "0px auto 0px 0px"
+              },
+              {
+                "value": "0px auto",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "0px 0px 0px auto"
+              }
+            ]
+          },
+    {
+       "type": "range",
+          "id": "mobail_font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":100,
+        "unit": "px",
+          "default":29,
+          "step": 1
+      },
+        {
+       "type": "range",
+          "id": "mobail_line_height",
+          "label": "Line Height",
+          "min":0,
+          "max":100,
+        "unit": "px",
+          "default":40,
+          "step": 1
+      },
+          {
+        "type": "range",
+          "id": "mobail_margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":100,
+           "unit": "px",
+          "default":8,
+          "step": 1
+    }
+  ]
+},
+{
+  "type": "richtext",
+  "name":"Rich Text",
+  "settings": [
+    {
+      "type": "richtext",
+      "label": "Content",
+      "id": "text"
+    },
+     {
+      "type": "color",
+      "id": "textcolor",
+      "label": "Color",
+      "default":"#000000"
+    },
+     {
+   "type": "header",
+   "content": "Laptop Typography"
+    },     {
+        "type": "select",
+         "id": "text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+        {
+       "type": "range",
+          "id": "width",
+          "label": "Width",
+          "min":0,
+          "max":100,
+          "unit": "%",
+          "default":100,
+          "step": 1
+      },     {
+        "type": "select",
+         "id": "align_content",
+            "label": "Align Content",
+            "default": "0px auto 0px 0px",
+            "options": [
+              {
+                "label": "left",
+                "value": "0px auto 0px 0px"
+              },
+              {
+                "value": "0px auto",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "0px 0px 0px auto"
+              }
+            ]
+          },
+    {
+       "type": "range",
+          "id": "font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":30,
+        "unit": "px",
+          "default":18,
+          "step": 1
+      },
+        {
+       "type": "range",
+          "id": "line_height",
+          "label": "Line Height",
+          "min":0,
+          "max":50,
+        "unit": "px",
+          "default":27,
+          "step": 1
+      },
+
+    {
+        "type": "select",
+         "id": "font_weight",
+            "label": "Font Weight",
+            "default": "500",
+            "options": [
+              {
+                "label": "100",
+                "value": "100"
+              },
+              {
+                "value": "200",
+                "label": "200"
+              },
+                {
+                "label": "300",
+                "value": "300"
+              },
+              {
+                "value": "400",
+                "label": "400"
+              },
+                  {
+                "label": "500",
+                "value": "500"
+              },
+              {
+                "value": "600",
+                "label": "600"
+              },
+              {
+                "label": "700",
+                "value": "700"
+              },
+              {
+                "label": "800",
+                "value": "800"
+              },
+               {
+                "label": "900",
+                "value": "900"
+              },
+               {
+                "label": "Bold",
+                "value": "bold"
+              }
+            ]
+          },
+          {
+        "type": "range",
+          "id": "margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":100,
+           "unit": "px",
+          "default":20,
+          "step": 1
+    },
+         {
+   "type": "header",
+   "content": "Mobail Typography"
+    },     {
+        "type": "select",
+         "id": "mobail_text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+        {
+       "type": "range",
+          "id": "mobail_width",
+          "label": "Width",
+          "min":0,
+          "max":100,
+          "unit": "%",
+          "default":100,
+          "step": 1
+      },     {
+        "type": "select",
+         "id": "mobail_align_content",
+            "label": "Align Content",
+            "default": "0px auto 0px 0px",
+            "options": [
+              {
+                "label": "left",
+                "value": "0px auto 0px 0px"
+              },
+              {
+                "value": "0px auto",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "0px 0px 0px auto"
+              }
+            ]
+          },
+    {
+       "type": "range",
+          "id": "mobail_font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":30,
+        "unit": "px",
+          "default":16,
+          "step": 1
+      },
+        {
+       "type": "range",
+          "id": "mobail_line_height",
+          "label": "Line Height",
+          "min":0,
+          "max":50,
+        "unit": "px",
+          "default":24,
+          "step": 1
+      },
+          {
+        "type": "range",
+          "id": "mobail_margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":100,
+           "unit": "px",
+          "default":20,
+          "step": 1
+    }
+  ]
+},
+  {
+  "type": "button",
+  "name": "Button",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "url",
+      "id": "btnlink",
+      "label": "Button Link"
+    },
+    {
+      "type": "text",
+      "id": "btntext",
+      "label": "Button Text",
+      "default":"Shop Now"
+    },
+      {
+        "type": "header",
+        "content": "Button Style"
+      },
+     {
+        "type": "select",
+         "id": "text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+      {
+        "type": "text",
+        "id": "padding",
+        "label": "Border Padding ( 10px 45px)",
+        "default":"10px 45px"
+      },
+        {
+       "type": "range",
+          "id": "font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":50,
+        "unit": "px",
+          "default":18,
+          "step": 1
+      },
+    {
+        "type": "select",
+         "id": "font_weight",
+            "label": "Font Weight",
+            "default": "500",
+            "options": [
+              {
+                "label": "100",
+                "value": "100"
+              },
+              {
+                "value": "200",
+                "label": "200"
+              },
+                {
+                "label": "300",
+                "value": "300"
+              },
+              {
+                "value": "400",
+                "label": "400"
+              },
+                  {
+                "label": "500",
+                "value": "500"
+              },
+              {
+                "value": "600",
+                "label": "600"
+              },
+              {
+                "label": "700",
+                "value": "700"
+              },
+              {
+                "label": "800",
+                "value": "800"
+              },
+               {
+                "label": "900",
+                "value": "900"
+              },
+               {
+                "label": "Bold",
+                "value": "bold"
+              }
+            ]
+          },
+
+    {
+      "type": "range",
+      "label": "Border Width",
+        "id": "border_width",
+          "min":0,
+          "max":10,
+        "unit": "px",
+          "default":1,
+          "step": 1
+      },
+        {
+      "type": "range",
+      "label": "Border Radius",
+        "id": "border_radius",
+          "min":0,
+          "max":100,
+        "unit": "px",
+          "default":30,
+          "step": 1
+      },
+        {
+        "type": "range",
+          "id": "margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":50,
+           "unit": "px",
+          "default":0,
+          "step": 1
+    },
+     {
+        "type": "header",
+        "content": "Mobail Button Style"
+      }, {
+        "type": "select",
+         "id": "mobail_text_align",
+            "label": "Text Align",
+            "default": "left",
+            "options": [
+              {
+                "label": "left",
+                "value": "left"
+              },
+              {
+                "value": "center",
+                "label": "center"
+              },
+              {
+                "label": "right",
+                "value": "right"
+              }
+            ]
+          },
+     {
+        "type": "text",
+        "id": "mobail_padding",
+        "label": "Border Width ( 10px 30px)",
+        "default":"10px 30px"
+      },
+        {
+       "type": "range",
+          "id": "mobaile_font_size",
+          "label": "Font Size",
+          "min":0,
+          "max":50,
+        "unit": "px",
+          "default":17,
+          "step": 1
+      },          {
+        "type": "range",
+          "id": "mobail_margin_bottom",
+          "label": "Margin Bottom",
+          "min":0,
+          "max":50,
+           "unit": "px",
+          "default":0,
+          "step": 1
+    },
+        {
+        "type": "header",
+        "content": "Button Color"
+      },
+               {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text Color",
+             "default":"#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "btn_color",
+            "label": "Button Color",
+             "default":"#4ea2b2"
+          },
+    {
+            "type": "color",
+            "id": "border_color",
+            "label": "Border Color",
+             "default":"#4ea2b2"
+          },
+            {
+        "type": "header",
+        "content": "Button Hover Color"
+      },
+            {
+            "type": "color",
+            "id": "text_color_hover",
+            "label": "Text",
+            "default":"#ffffff"
+          },
+          {
+            "type": "color",
+            "id": "btn_color_hover",
+            "label": "Button Color",
+             "default":"#f37527"
+          },
+          {
+            "type": "color",
+            "id": "border_color_hover",
+            "label": "Border Color",
+             "default":"#f37527"
+          }
+  ]
+}
+    ],
+    "presets": [
+      {
+        "name": "Skinnydipped VS Section"
+      }
+    ]
+  }
+{% endschema %}

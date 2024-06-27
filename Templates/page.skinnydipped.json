@@ -1,0 +1,1656 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+    "sections": {
+      "main": {
+        "type": "main-page",
+        "disabled": true,
+        "settings": {
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "zegsu-header-bar": {
+        "type": "apps",
+        "disabled": true,
+        "settings": {
+          "include_margins": true
+        }
+      },
+      "skinnydipped_section_dGQkyE": {
+        "type": "skinnydipped-section",
+        "blocks": {
+          "image_LV6xVi": {
+            "type": "image",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/472241699419063450-b00b3200-2096-4a2f-b13a-6f9f8ca02016.webp",
+              "width": "300px",
+              "margin_bottom": 50,
+              "mwidth": "200px",
+              "mmargin_bottom": 0,
+              "aspect_ratio": "",
+              "object_fit": "fill",
+              "border_px": "px",
+              "border_radius": 0
+            }
+          },
+          "title_TyA4LA": {
+            "type": "title",
+            "settings": {
+              "title": "Discover Healthy",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto",
+              "font_size": 53,
+              "line_height": 60,
+              "font_weight": "700",
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 30,
+              "mobail_line_height": 38,
+              "mobail_margin_bottom": 0
+            }
+          },
+          "title_nzTmNi": {
+            "type": "title",
+            "settings": {
+              "title": " Indulgence",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 53,
+              "line_height": 60,
+              "font_weight": "700",
+              "margin_bottom": 30,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto",
+              "mobail_font_size": 30,
+              "mobail_line_height": 38,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "title_DxPcb4": {
+            "type": "title",
+            "settings": {
+              "title": "Snack Better with SkinnyDipped",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 22,
+              "line_height": 30,
+              "font_weight": "700",
+              "margin_bottom": 50,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 18,
+              "mobail_line_height": 24,
+              "mobail_margin_bottom": 30
+            }
+          },
+          "button_AdhT9r": {
+            "type": "button",
+            "settings": {
+              "btnlink": "#",
+              "btntext": "Snack Healthy",
+              "text_align": "center",
+              "padding": "13px 30px",
+              "font_size": 18,
+              "font_weight": "500",
+              "border_width": 1,
+              "border_radius": 5,
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_padding": "12px 30px",
+              "mobaile_font_size": 16,
+              "mobail_margin_bottom": 0,
+              "text_color": "#000000",
+              "btn_color": "#feef01",
+              "border_color": "#feef01",
+              "text_color_hover": "#ffffff",
+              "btn_color_hover": "#1250f2",
+              "border_color_hover": "#1250f2"
+            }
+          }
+        },
+        "block_order": [
+          "image_LV6xVi",
+          "title_TyA4LA",
+          "title_nzTmNi",
+          "title_DxPcb4",
+          "button_AdhT9r"
+        ],
+        "settings": {
+          "bgimg": "shopify:\/\/shop_images\/download.jpg",
+          "bgcolor": "",
+          "laptop_top": 110,
+          "laptop_bottom": 110,
+          "mobail_top": 64,
+          "mobail_bottom": 64,
+          "border_width": "0",
+          "border_color": "#d9d9d9",
+          "border_style": "solid"
+        }
+      },
+      "skinnydipped_icon_box_6tdfU7": {
+        "type": "skinnydipped-icon-box",
+        "blocks": {
+          "iconbox_J9F7Ry": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-04ab23ec-a3d6-4313-ba70-5d2ebfc5907a.png",
+              "title": "",
+              "text": "\"Delicious and Healthy\""
+            }
+          },
+          "iconbox_4hmhNH": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-85f3c1e3-3d37-409a-b1de-547a2a1b5f18.svg",
+              "title": "",
+              "text": "Rated 4.9\/5 by Verified Customers"
+            }
+          },
+          "iconbox_BGtine": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "title": "1000+",
+              "text": "Reviews on Amazon"
+            }
+          },
+          "iconbox_bFN8zb": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-0295b2b6-efd3-4415-8519-68939aa223c3.svg",
+              "title": "",
+              "text": "Heart-healthy snack packed with anti-oxidancts"
+            }
+          },
+          "iconbox_bqkTkF": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-c2998dca-4a4d-4e49-9121-96d22cf6e917.png",
+              "title": "",
+              "text": "A better snack for weight loss"
+            }
+          }
+        },
+        "block_order": [
+          "iconbox_J9F7Ry",
+          "iconbox_4hmhNH",
+          "iconbox_BGtine",
+          "iconbox_bFN8zb",
+          "iconbox_bqkTkF"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#244ee2",
+          "laptop_top": 50,
+          "laptop_bottom": 50,
+          "box_show": 5,
+          "box_gap": 15,
+          "box_padding": 0,
+          "icon_width": "100%",
+          "icon_height": "40px",
+          "aspect_ratio": "",
+          "object_fit": "contain",
+          "icon_margin": 20,
+          "title_font_size": 30,
+          "title_line_height": 40,
+          "title_font_weight": "700",
+          "title_margin_bottom": 20,
+          "text_font_size": 20,
+          "text_line_height": 26,
+          "text_font_weight": "400",
+          "text_margin_bottom": 0,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "mobail_box_gap": 15,
+          "mobail_box_padding": 0,
+          "mobaile_icon_width": "",
+          "mobail_icon_height": "",
+          "mobail_icon_margin": 10,
+          "mobaile_title_font_size": 26,
+          "mobaile_title_line_height": 30,
+          "mobaile_title_margin_bottom": 10,
+          "mobaile_text_font_size": 14,
+          "mobail_text_line_height": 19,
+          "mobail_text_margin_bottom": 0,
+          "title_color": "#ffffff",
+          "text_color": "#cdcdd3",
+          "box_color": ""
+        }
+      },
+      "skinnydipped_about_us_P3MRrF": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_GY4w6D": {
+            "type": "title",
+            "settings": {
+              "title": "SkinnyDipped is the healthier way to satisfy a sweet tooth",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_JaFnir": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>SkinnyDipped's balanced approach offers more nut than chocolate in each bite, resulting in significantly less sugar than traditional chocolate-covered snacks.<\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 50,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 25
+            }
+          },
+          "button_4fRRX4": {
+            "type": "button",
+            "settings": {
+              "btnlink": "#",
+              "btntext": "Sweet Snacks Now",
+              "btnafter": "",
+              "padding": "13px 30px",
+              "font_size": 18,
+              "font_weight": "500",
+              "border_width": 1,
+              "border_radius": 5,
+              "margin_bottom": 0,
+              "btn_full_width": false,
+              "mobail_padding": "12px 30px",
+              "mobaile_font_size": 17,
+              "mobail_margin_bottom": 0,
+              "text_color": "#24272a",
+              "btn_color": "#ffb70b",
+              "border_color": "#ffb70b",
+              "text_bottom_color": "#000000",
+              "text_color_hover": "#ffffff",
+              "btn_color_hover": "#0078e2",
+              "border_color_hover": "#0078e2"
+            }
+          },
+          "image_9dqKgB": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-daacab8e-0b00-46b5-b839-8b0c197826de.webp",
+              "aspect_ratio": "",
+              "object_fit": "cover",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          }
+        },
+        "block_order": [
+          "title_GY4w6D",
+          "richtext_JaFnir",
+          "button_4fRRX4",
+          "image_9dqKgB"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_icon_box_Lz7FEQ": {
+        "type": "skinnydipped-icon-box",
+        "blocks": {
+          "iconbox_yE4EYQ": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-07087583-bcf4-4a59-9c62-dcc61754ce2d.svg",
+              "title": "Gluten-Free",
+              "text": ""
+            }
+          },
+          "iconbox_BWV6JK": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-597f6cea-a70c-495e-a3cf-08ad8bcf2ddc.svg",
+              "title": "No Artificial Colors or Flavors",
+              "text": ""
+            }
+          },
+          "iconbox_W6gH4q": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-b32672b9-7f4d-4b84-8622-339ca3fcdc86.svg",
+              "title": "Plant Protein",
+              "text": ""
+            }
+          },
+          "iconbox_dUFWmR": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-0a1fd414-0f3b-46ac-9472-7e34f5e077b2.svg",
+              "title": "Non-GMO",
+              "text": ""
+            }
+          },
+          "iconbox_cMVgTK": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-b0038d5c-5654-41b1-8f32-cac2ecc40384.svg",
+              "title": "No Sugar Alternatives",
+              "text": ""
+            }
+          }
+        },
+        "block_order": [
+          "iconbox_yE4EYQ",
+          "iconbox_BWV6JK",
+          "iconbox_W6gH4q",
+          "iconbox_dUFWmR",
+          "iconbox_cMVgTK"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#244ee2",
+          "laptop_top": 50,
+          "laptop_bottom": 50,
+          "box_show": 5,
+          "box_gap": 20,
+          "box_padding": 0,
+          "icon_width": "120px",
+          "icon_height": "120px",
+          "aspect_ratio": "1\/1",
+          "object_fit": "contain",
+          "icon_margin": 20,
+          "title_font_size": 20,
+          "title_line_height": 26,
+          "title_font_weight": "400",
+          "title_margin_bottom": 0,
+          "text_font_size": 0,
+          "text_line_height": 0,
+          "text_font_weight": "500",
+          "text_margin_bottom": 0,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "mobail_box_gap": 10,
+          "mobail_box_padding": 0,
+          "mobaile_icon_width": "100px",
+          "mobail_icon_height": "100px",
+          "mobail_icon_margin": 15,
+          "mobaile_title_font_size": 18,
+          "mobaile_title_line_height": 24,
+          "mobaile_title_margin_bottom": 10,
+          "mobaile_text_font_size": 18,
+          "mobail_text_line_height": 18,
+          "mobail_text_margin_bottom": 10,
+          "title_color": "#cdcdd3",
+          "text_color": "",
+          "box_color": ""
+        }
+      },
+      "skinnydipped_about_us_kVLpAY": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_section_dDbxdC": {
+            "type": "title_section",
+            "settings": {
+              "title": "Why is SkinnyDipped better than candy? ",
+              "textcolor": "#24272a",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 48,
+              "line_height": 62,
+              "font_weight": "700",
+              "margin_bottom": 60,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 50
+            }
+          },
+          "image_pVWp3A": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-b0737d78-f867-4f42-bd3a-a1a1eb3c90b0.png",
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          },
+          "accordion_pQtkng": {
+            "type": "accordion",
+            "settings": {
+              "margin_bottom": 0,
+              "title_font_size": 22,
+              "title_font_weight": "600",
+              "text_font_size": 16,
+              "icon_width": 20,
+              "mobail_margin_bottom": 0,
+              "mobail_title_font_size": 16,
+              "mobail_text_font_size": 14,
+              "mobail_icon_width": 18,
+              "title_color": "#24272a",
+              "text_color": "#24272a",
+              "active_color": "#244ee2",
+              "icon_color": "#1250f2"
+            }
+          },
+          "accordion_list_eaQbYa": {
+            "type": "accordion_list",
+            "settings": {
+              "title": "SkinnyDipped actually has nutrients",
+              "text": "SkinnyDipped refers to the way our almonds, cashews, and peanuts are dipped in a super thin layer of chocolate or yogurt; the nuts and coating are balanced in the most delicious (and healthy) way possible. You get more nut than chocolate in every bite – which means way less sugar than traditional chocolate-covered snacks."
+            }
+          },
+          "accordion_list_wXVjpD": {
+            "type": "accordion_list",
+            "settings": {
+              "title": "SkinnyDipped is all  natural",
+              "text": "he new and improved Pop! Yourself experience costs $30, which includes the custom figure and personalized box. Buddies are an additional $4 and will be placed in the box with the built figure. *Limit 2 per figure, at present.  Pop! Protectors are optional and can be purchased for $8."
+            }
+          },
+          "accordion_list_QHMmUH": {
+            "type": "accordion_list",
+            "settings": {
+              "title": " SkinnyDipped uses the best ingredients",
+              "text": "he new and improved Pop! Yourself experience costs $30, which includes the custom figure and personalized box. Buddies are an additional $4 and will be placed in the box with the built figure. *Limit 2 per figure, at present.  Pop! Protectors are optional and can be purchased for $8."
+            }
+          },
+          "accordion_list_7HLMkU": {
+            "type": "accordion_list",
+            "settings": {
+              "title": "SkinnyDipped is gluten-free & kosher",
+              "text": "he new and improved Pop! Yourself experience costs $30, which includes the custom figure and personalized box. Buddies are an additional $4 and will be placed in the box with the built figure. *Limit 2 per figure, at present.  Pop! Protectors are optional and can be purchased for $8."
+            }
+          },
+          "accordion_list_yEJnJM": {
+            "type": "accordion_list",
+            "settings": {
+              "title": "SkinnyDipped does sweet naturally",
+              "text": "he new and improved Pop! Yourself experience costs $30, which includes the custom figure and personalized box. Buddies are an additional $4 and will be placed in the box with the built figure. *Limit 2 per figure, at present.  Pop! Protectors are optional and can be purchased for $8."
+            }
+          }
+        },
+        "block_order": [
+          "title_section_dDbxdC",
+          "image_pVWp3A",
+          "accordion_pQtkng",
+          "accordion_list_eaQbYa",
+          "accordion_list_wXVjpD",
+          "accordion_list_QHMmUH",
+          "accordion_list_7HLMkU",
+          "accordion_list_yEJnJM"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row-reverse",
+          "aling": "center",
+          "mobail_flexdirection": "column-reverse",
+          "mobail_text_aling": "Left",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_table_UfDAXb": {
+        "type": "skinnydipped-table",
+        "blocks": {
+          "title_F3Yz7E": {
+            "type": "title",
+            "settings": {
+              "title": "SkinnyDipped vs. M&M's",
+              "textcolor": "#24272a",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 48,
+              "line_height": 58,
+              "font_weight": "600",
+              "margin_bottom": 20,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 24,
+              "mobail_line_height": 28,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_V8fpCU": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>SkinnyDipped is the ultimate solution for making your snack routine healthy and satisfying <\/p>",
+              "textcolor": "#26292c",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 20,
+              "line_height": 30,
+              "font_weight": "400",
+              "margin_bottom": 80,
+              "mobail_text_align": "center",
+              "mobail_width": 85,
+              "mobail_align_content": "0px auto",
+              "mobail_font_size": 14,
+              "mobail_line_height": 24,
+              "mobail_margin_bottom": 30
+            }
+          },
+          "table_header_7nMDG7": {
+            "type": "table_header",
+            "settings": {
+              "title_1": "",
+              "img_2": "shopify:\/\/shop_images\/472241699419063450-410ebd0b-bf49-41f4-aa35-edbbc30f07bb.png",
+              "title_2": "SkinnyDipped",
+              "img_3": "shopify:\/\/shop_images\/472241699419063450-02fd5a70-d282-4162-9ff9-bd07c2c5cd62.gif",
+              "title_3": "M&M",
+              "img_width": "270px",
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "img_margin": 10,
+              "header_title": 20,
+              "title": 18,
+              "icon": 30,
+              "mobail_img_width": "50px",
+              "mobail_img_margin": 5,
+              "mobail_header_title": 15,
+              "mobail_title": 15,
+              "mobail_icon": 22,
+              "header_title_color": "#282a2d",
+              "body_text_color": "#282a2d",
+              "check_icon": "#1362ff",
+              "uncheck_icon": "#858587",
+              "boder_color": "#e7e7eb"
+            }
+          },
+          "table_list_BTwB4r": {
+            "type": "table_list",
+            "settings": {
+              "text": "Made with sustainable chocolate",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_JULAfa": {
+            "type": "table_list",
+            "settings": {
+              "text": "Made with sustainable nuts",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_QzpKgR": {
+            "type": "table_list",
+            "settings": {
+              "text": "Made without artificial colors",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_YAWpLm": {
+            "type": "table_list",
+            "settings": {
+              "text": "Made without artificial sweeteners",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_PQT3Am": {
+            "type": "table_list",
+            "settings": {
+              "text": "Made with organic ingredients",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_9CDCyK": {
+            "type": "table_list",
+            "settings": {
+              "text": "Packed with protein",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_9NYJhC": {
+            "type": "table_list",
+            "settings": {
+              "text": "Packed with good fats",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_XBNmXN": {
+            "type": "table_list",
+            "settings": {
+              "text": "Packed with anti-oxidants",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          },
+          "table_list_QMzVne": {
+            "type": "table_list",
+            "settings": {
+              "text": "Non-GMO",
+              "icon_colum_1": "check",
+              "icon_colum_2": "uncheck"
+            }
+          }
+        },
+        "block_order": [
+          "title_F3Yz7E",
+          "richtext_V8fpCU",
+          "table_header_7nMDG7",
+          "table_list_BTwB4r",
+          "table_list_JULAfa",
+          "table_list_QzpKgR",
+          "table_list_YAWpLm",
+          "table_list_PQT3Am",
+          "table_list_9CDCyK",
+          "table_list_9NYJhC",
+          "table_list_XBNmXN",
+          "table_list_QMzVne"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_about_us_GYHn9k": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_7Jgpza": {
+            "type": "title",
+            "settings": {
+              "title": "Stay energized throughout the day with SkinnyDipped",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_terMyD": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>When you crave a satisfying snack that's good for you, turn to SkinnyDipped nuts. Unlike  processed snacks, SkinnyDipped has all the benefits of nuts, which are a powerhouse of nutrition. Packed with healthy fats, protein, fiber, vitamins, and minerals, they keep you full and energized. Plus, their antioxidants support your immune system and overall health. SkinnyDipped adds a thin layer of chocolate to add that touch of sweetness. The perfect alternative to candy!<\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 0,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 25
+            }
+          },
+          "image_9TR8tM": {
+            "type": "image",
+            "settings": {
+              "text": "Energy Levels After Eating Nuts",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-29fc6e41-2f3c-41ec-93e7-9204d0b256e0.gif",
+              "aspect_ratio": "1.5\/1",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          }
+        },
+        "block_order": [
+          "title_7Jgpza",
+          "richtext_terMyD",
+          "image_9TR8tM"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_offer_banner_NdHUeN": {
+        "type": "skinnydipped-offer-banner",
+        "blocks": {
+          "image_k3rFxg": {
+            "type": "image",
+            "settings": {
+              "col_width": 20,
+              "img": "shopify:\/\/shop_images\/472241699419063450-23f054c1-4933-4b60-9ac0-aab0aa0875e6.png",
+              "width": "190px",
+              "margin_bottom": 0,
+              "mwidth": "90%",
+              "mmargin_bottom": 0,
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0
+            }
+          },
+          "title_gKbp7H": {
+            "type": "title",
+            "settings": {
+              "col_width": 60,
+              "title": "What are you waiting for?  Get SkinnyDipped today.",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 84,
+              "align_content": "0px auto",
+              "font_size": 40,
+              "line_height": 52,
+              "font_weight": "600",
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 22,
+              "mobail_line_height": 28,
+              "mobail_margin_bottom": 35
+            }
+          },
+          "button_idxTzF": {
+            "type": "button",
+            "settings": {
+              "col_width": 20,
+              "btnlink": "#",
+              "btntext": "Shop Now",
+              "text_align": "center",
+              "padding": "10px 40px",
+              "font_size": 18,
+              "font_weight": "500",
+              "border_width": 1,
+              "border_radius": 5,
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_padding": "10px 45px",
+              "mobaile_font_size": 17,
+              "mobail_margin_bottom": 0,
+              "text_color": "#000000",
+              "btn_color": "#feef01",
+              "border_color": "#feef01",
+              "text_color_hover": "#1862fe",
+              "btn_color_hover": "#ffffff",
+              "border_color_hover": "#ffffff"
+            }
+          }
+        },
+        "block_order": [
+          "image_k3rFxg",
+          "title_gKbp7H",
+          "button_idxTzF"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#1862fe",
+          "laptop_top": 20,
+          "laptop_bottom": 20,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_about_us_cThDex": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "image_jkmV7y": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-31552827-5c10-4ef3-87c1-2938be650726.png",
+              "aspect_ratio": "1\/.9",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          },
+          "title_hy9myR": {
+            "type": "title",
+            "settings": {
+              "title": "A tasty treat for any time",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_pdLznV": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>Whether you're seeking an energizing pick-me-up, a guilt-free dessert, or a companion for your cozy evenings, SkinnyDipped's flavor range has you covered. We believe that snacking should be an experience that excites your senses and nourishes your body, and our assortment of flavors is designed to do just that. So, embark on a flavor-filled journey with SkinnyDipped, and discover the art of snacking reimagined.<\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 0,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 0
+            }
+          }
+        },
+        "block_order": [
+          "image_jkmV7y",
+          "title_hy9myR",
+          "richtext_pdLznV"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_about_us_ABxL7j": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_3NaXhV": {
+            "type": "title",
+            "settings": {
+              "title": "SkinnyDipped makes entertaining easy",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_hNerKw": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>Looking to add a touch of sophistication and healthiness to your next gathering? SkinnyDipped has two dozen flavors. Grab a couple for your next party. From almonds to cashews, nuts bring a satisfying crunch and a burst of flavor that pairs perfectly with any occasion. Not only do they cater to various tastes, but they also offer a healthier alternative to traditional party snacks. So, whether it's a casual get-together or a special celebration, serving nuts will leave your guests impressed and nourished.<\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 0,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 0
+            }
+          },
+          "image_hYAP4F": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-15f39349-2c06-4c01-97fa-7b2e05d0e06a.jpg",
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          }
+        },
+        "block_order": [
+          "title_3NaXhV",
+          "richtext_hNerKw",
+          "image_hYAP4F"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row-reverse",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_icon_box_z7rLr3": {
+        "type": "skinnydipped-icon-box",
+        "blocks": {
+          "title_gNfDAK": {
+            "type": "title",
+            "settings": {
+              "title": "Why SkinnyDipped offers MORE with each bite",
+              "textcolor": "#24272a",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 48,
+              "line_height": 58,
+              "font_weight": "600",
+              "margin_bottom": 60,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 24,
+              "mobail_line_height": 28,
+              "mobail_margin_bottom": 30
+            }
+          },
+          "iconbox_7VqLKd": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-5ac63871-c071-454c-a2a0-2643ec5d06ba.png",
+              "title": "Add protein to your diet",
+              "text": "Protein helps stave off hunger and prevents binge eating."
+            }
+          },
+          "iconbox_nmG3eP": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-cd76b69a-b1d6-4bdc-9faf-75fe5bfe180f.png",
+              "title": "Add flavor to your day",
+              "text": "Whole ingredients taste better than processed food."
+            }
+          },
+          "iconbox_Gypxng": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-c16c9564-b4d1-4eff-bc59-dbe78ab90aa9.png",
+              "title": "Avoid chemicals",
+              "text": "Many snackfoods are full of chemicals and preservatives. Not SkinnyDipped!"
+            }
+          },
+          "iconbox_rhRpg7": {
+            "type": "iconbox",
+            "settings": {
+              "text_align": "center",
+              "mtext_align": "center",
+              "icon_id": "shopify:\/\/shop_images\/472241699419063450-16811294-9d65-4e2f-bc9e-66d8b8184f87.png",
+              "title": "Enjoy yourself",
+              "text": "Healthy snacks should also be fun. SkinnyDipped has many flavors because variety is the spice of life."
+            }
+          }
+        },
+        "block_order": [
+          "title_gNfDAK",
+          "iconbox_7VqLKd",
+          "iconbox_nmG3eP",
+          "iconbox_Gypxng",
+          "iconbox_rhRpg7"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "box_show": 4,
+          "box_gap": 15,
+          "box_padding": 0,
+          "icon_width": "70px",
+          "icon_height": "70px",
+          "aspect_ratio": "1\/1",
+          "object_fit": "contain",
+          "icon_margin": 16,
+          "title_font_size": 22,
+          "title_line_height": 27,
+          "title_font_weight": "600",
+          "title_margin_bottom": 10,
+          "text_font_size": 18,
+          "text_line_height": 27,
+          "text_font_weight": "400",
+          "text_margin_bottom": 10,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "mobail_box_gap": 15,
+          "mobail_box_padding": 0,
+          "mobaile_icon_width": "",
+          "mobail_icon_height": "",
+          "mobail_icon_margin": 10,
+          "mobaile_title_font_size": 20,
+          "mobaile_title_line_height": 24,
+          "mobaile_title_margin_bottom": 15,
+          "mobaile_text_font_size": 16,
+          "mobail_text_line_height": 24,
+          "mobail_text_margin_bottom": 10,
+          "title_color": "#24272a",
+          "text_color": "#24272a",
+          "box_color": ""
+        }
+      },
+      "skinnydipped_about_us_RMFXb3": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_mBXUdq": {
+            "type": "title",
+            "settings": {
+              "title": "Snacks with ingredients you can pronounce",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_WXTyBr": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>Each SkinnyDipped product has whole foods like almonds, cashews, peanuts, dark chocolate, cocoa powder, maple sugar, and sea salt. SkinnyDipped sources the best ingredients. <br\/><\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 0,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 0
+            }
+          },
+          "image_W8wyyC": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-75e5a73f-838b-47b1-917c-adc50a4228b9.jpg",
+              "aspect_ratio": "1\/1.2",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          }
+        },
+        "block_order": [
+          "title_mBXUdq",
+          "richtext_WXTyBr",
+          "image_W8wyyC"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row-reverse",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_about_us_DihHkx": {
+        "type": "skinnydipped-about-us",
+        "blocks": {
+          "title_zFidz6": {
+            "type": "title",
+            "settings": {
+              "title": "Made to keep you satisfied",
+              "textcolor": "#24272a",
+              "font_size": 36,
+              "line_height": 46,
+              "font_weight": "600",
+              "margin_bottom": 30,
+              "mobail_font_size": 24,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "richtext_EcXLKX": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>SkinnyDipped is made to ensure you get healthy plant protein. Each serving has 5 grams of protein. <\/p><p> <\/p><p>Whole nuts are a fantastic source of protein — and unlike traditional chocolate nuts, ours have a super thin layer of dark chocolate, so you get more nut than sugar in every bite and just enough chocolate to make your day a little sweeter.<\/p>",
+              "textcolor": "#24272a",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 0,
+              "mobail_font_size": 14,
+              "mobail_line_height": 21,
+              "mobail_margin_bottom": 15
+            }
+          },
+          "image_mGBQM9": {
+            "type": "image",
+            "settings": {
+              "text": "",
+              "img1": "shopify:\/\/shop_images\/472241699419063450-9991a840-9582-437c-892b-0f3e972d5597.jpg",
+              "aspect_ratio": "1\/1.2",
+              "object_fit": "contain",
+              "border_px": "px",
+              "border_radius": 0,
+              "bg": "",
+              "text_color": "#24272a"
+            }
+          }
+        },
+        "block_order": [
+          "title_zFidz6",
+          "richtext_EcXLKX",
+          "image_mGBQM9"
+        ],
+        "settings": {
+          "container": "container",
+          "flexdirection": "row",
+          "aling": "center",
+          "mobail_flexdirection": "column",
+          "mobail_text_aling": "center",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_vs_section_MiG3ij": {
+        "type": "skinnydipped-vs-section",
+        "blocks": {
+          "title_twUGQG": {
+            "type": "title",
+            "settings": {
+              "title": "SkinnyDipped vs Ghiradelli",
+              "textcolor": "#2c332f",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 48,
+              "line_height": 58,
+              "font_weight": "600",
+              "margin_bottom": 60,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 24,
+              "mobail_line_height": 28,
+              "mobail_margin_bottom": 25
+            }
+          },
+          "vs_section_qrCBBE": {
+            "type": "vs_section",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/472241699419063450-39c1ca8c-2e1f-4e5e-b4db-cde4f4ab7ee9.png",
+              "vs_margin": 50,
+              "padding": "",
+              "border-radius": "40px",
+              "img_width": "90%",
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "img_margin": 30,
+              "title": 47,
+              "title_margin": 32,
+              "list_padding": "0px 20px 0px 70px",
+              "text": 22,
+              "text_margin": 10,
+              "des": 18,
+              "des_margin": 30,
+              "margin_vs_margin": 30,
+              "mobail_padding": "",
+              "mobail_border-radius": "40px",
+              "mobail_img_width": "",
+              "mobail_img_margin": 30,
+              "mobail_title": 36,
+              "mabile_title_margin": 32,
+              "mobail_list_padding": "0px 20px 0px 20px",
+              "mobail_text": 22,
+              "mobail_text_margin": 10,
+              "mobail_des": 14,
+              "mobail_des_margin": 30,
+              "box_bg": "#f8f8f8",
+              "title_color": "#25282b",
+              "list_title_color": "#25282b",
+              "text_color": "#25282b"
+            }
+          },
+          "vs_list_r9eM9k": {
+            "type": "vs_list",
+            "settings": {
+              "position_box": "left",
+              "img": "shopify:\/\/shop_images\/472241699419063450-daacab8e-0b00-46b5-b839-8b0c197826de.webp",
+              "title": "SkinnyDipped",
+              "text_1": "Satisfying and Sweet",
+              "des_1": "Protein packed to make sure that your blood-sugar doesn't spike.",
+              "text_2": "Better Snack Decision",
+              "des_2": "SkinnyDipped uses natural, non-GMO ingredients to ensure your snack habit won't fill your body with chemicals.",
+              "text_3": "Healthy can be Delicious",
+              "des_3": "SkinnyDipped never compromises on flavor so every bit is flavor packed and satifying.",
+              "text_4": "",
+              "des_4": "",
+              "text_5": "",
+              "des_5": ""
+            }
+          },
+          "vs_list_M8AT4j": {
+            "type": "vs_list",
+            "settings": {
+              "position_box": "right",
+              "img": "shopify:\/\/shop_images\/472241699419063450-ede07f05-a6c4-4b52-b1d0-186d8869b867_1.png",
+              "title": "Ghiradelli",
+              "text_1": "Packed with Unhealthy Sugars",
+              "des_1": "Simple sugars can make your blood sugar spike.",
+              "text_2": "Industrially Produced",
+              "des_2": "Industrially produced chocolate is full of chemicals and light on flavor.",
+              "text_3": "",
+              "des_3": "",
+              "text_4": "",
+              "des_4": "",
+              "text_5": "",
+              "des_5": ""
+            }
+          },
+          "button_FfwQHL": {
+            "type": "button",
+            "settings": {
+              "btnlink": "#",
+              "btntext": "Get the Best Snack",
+              "text_align": "center",
+              "padding": "13px 30px",
+              "font_size": 18,
+              "font_weight": "500",
+              "border_width": 1,
+              "border_radius": 5,
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_padding": "12px 30px",
+              "mobaile_font_size": 16,
+              "mobail_margin_bottom": 0,
+              "text_color": "#2c332f",
+              "btn_color": "#feef01",
+              "border_color": "#feef01",
+              "text_color_hover": "#ffffff",
+              "btn_color_hover": "#1250f2",
+              "border_color_hover": "#1250f2"
+            }
+          }
+        },
+        "block_order": [
+          "title_twUGQG",
+          "vs_section_qrCBBE",
+          "vs_list_r9eM9k",
+          "vs_list_M8AT4j",
+          "button_FfwQHL"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_bg_image_wDLfh7": {
+        "type": "skinnydipped-bg-image",
+        "blocks": {
+          "title_qnkmCU": {
+            "type": "title",
+            "settings": {
+              "title": "SkinnyDipped has Fans!",
+              "textcolor": "#2c332f",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 48,
+              "line_height": 58,
+              "font_weight": "600",
+              "margin_bottom": 50,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 24,
+              "mobail_line_height": 28,
+              "mobail_margin_bottom": 40
+            }
+          },
+          "bg_img_section_ChGpdG": {
+            "type": "bg_img_section",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/download.webp",
+              "img_height": "700px",
+              "mobail_img_height": "500px",
+              "overlay": "#121212",
+              "opacity": 30,
+              "text": "<p>“SkinnyDipped takes snacking to<\/p><p> another level. Healthy<\/p><p> and delicious”<\/p><p> <\/p><p>The Today Show<\/p>",
+              "textcolor": "#ffffff",
+              "text_align": "left",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 24,
+              "line_height": 32,
+              "font_weight": "600",
+              "padding": 50,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto",
+              "mobail_font_size": 20,
+              "mobail_line_height": 28,
+              "mobail_padding": 20
+            }
+          }
+        },
+        "block_order": [
+          "title_qnkmCU",
+          "bg_img_section_ChGpdG"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#ffffff",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_customers_UQHAkq": {
+        "type": "skinnydipped-customers",
+        "blocks": {
+          "title_QFnrMT": {
+            "type": "title",
+            "settings": {
+              "title": "Read why our customers love SkinnyDipped",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 38,
+              "line_height": 45,
+              "font_weight": "700",
+              "margin_bottom": 60,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto",
+              "mobail_font_size": 26,
+              "mobail_line_height": 32,
+              "mobail_margin_bottom": 30
+            }
+          },
+          "customer_box_LgVNcp": {
+            "type": "customer_box",
+            "settings": {
+              "box_gap": 32,
+              "box_padding": 20,
+              "img_width": "115px",
+              "aspect_ratio": "1\/1",
+              "object_fit": "contain",
+              "box_margin": 20,
+              "name_font": 20,
+              "user_font": 17,
+              "text_font": 14,
+              "mobail_box_gap": 30,
+              "mobail_box_padding": 20,
+              "mobail_img_width": "100px",
+              "mobail_box_margin": 20,
+              "mobail_name_font": 17,
+              "mobail_user_font": 17,
+              "mobail_text_font": 14,
+              "name_color": "#24272a",
+              "username_color": "#1e66ff",
+              "varified_color": "#1e66ff",
+              "text_color": "#24272a",
+              "box_bg": "#ffffff"
+            }
+          },
+          "customer_box_list_tFxFdr": {
+            "type": "customer_box_list",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/472241699419063450-a962cd1e-81d4-47c0-8f13-3bb5aab489b7.png",
+              "name": "John Cera",
+              "username": "@johncera",
+              "text": "Freaking brilliant. This snack hits the spot, I love getting to eat choclate while still getting all those good nutrients. Win Win. "
+            }
+          },
+          "customer_box_list_MU8QEH": {
+            "type": "customer_box_list",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/472241699419063450-6e740095-9328-4897-bde1-1bce4e17f15c.png",
+              "name": "Kevin Town",
+              "username": "@kevin9497",
+              "text": "So yummy. I like the peanut and the cashew ones. And the almond ones. Really all the ones. "
+            }
+          },
+          "customer_box_list_aiPhAF": {
+            "type": "customer_box_list",
+            "settings": {
+              "img": "shopify:\/\/shop_images\/472241699419063450-8282035d-5ee1-4008-a235-798165fc10ba.png",
+              "name": "Ellen DaSilva",
+              "username": "@ellenjdasilva",
+              "text": "I have a terrible sweet tooh and most healthy snacks suck. But these are so satisfying. "
+            }
+          }
+        },
+        "block_order": [
+          "title_QFnrMT",
+          "customer_box_LgVNcp",
+          "customer_box_list_tFxFdr",
+          "customer_box_list_MU8QEH",
+          "customer_box_list_aiPhAF"
+        ],
+        "settings": {
+          "container": "container",
+          "bgcolor": "#24272a",
+          "laptop_top": 80,
+          "laptop_bottom": 80,
+          "mobail_top": 50,
+          "mobail_bottom": 50,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      },
+      "skinnydipped_bg_section_PzwUcX": {
+        "type": "skinnydipped-bg-section",
+        "blocks": {
+          "box_VXreaa": {
+            "type": "box",
+            "settings": {
+              "box_bg": "#121212",
+              "opacity": 60,
+              "box_width": "400px",
+              "align_content": "0px 0px 0px auto",
+              "box_padding": "50px 20px",
+              "mobail_box_width": "100%",
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_box_padding": "30px 20px"
+            }
+          },
+          "title_tmFPb6": {
+            "type": "title",
+            "settings": {
+              "title": "We're available online and in shops. ",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 30,
+              "line_height": 38,
+              "font_weight": "700",
+              "margin_bottom": 20,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 28,
+              "mobail_line_height": 36,
+              "mobail_margin_bottom": 8
+            }
+          },
+          "richtext_pVayYC": {
+            "type": "richtext",
+            "settings": {
+              "text": "<p>Get them everywhere you get your snacks. You won't be sorry. <\/p>",
+              "textcolor": "#ffffff",
+              "text_align": "center",
+              "width": 100,
+              "align_content": "0px auto 0px 0px",
+              "font_size": 18,
+              "line_height": 27,
+              "font_weight": "400",
+              "margin_bottom": 20,
+              "mobail_text_align": "center",
+              "mobail_width": 100,
+              "mobail_align_content": "0px auto 0px 0px",
+              "mobail_font_size": 16,
+              "mobail_line_height": 24,
+              "mobail_margin_bottom": 20
+            }
+          },
+          "button_feW4Cd": {
+            "type": "button",
+            "settings": {
+              "btnlink": "#",
+              "btntext": "Grab a Snack",
+              "text_align": "center",
+              "padding": "13px 30px",
+              "font_size": 18,
+              "font_weight": "500",
+              "border_width": 1,
+              "border_radius": 5,
+              "margin_bottom": 0,
+              "mobail_text_align": "center",
+              "mobail_padding": "12px 30px",
+              "mobaile_font_size": 17,
+              "mobail_margin_bottom": 0,
+              "text_color": "#252525",
+              "btn_color": "#feef01",
+              "border_color": "#feef01",
+              "text_color_hover": "#ffffff",
+              "btn_color_hover": "#1250f2",
+              "border_color_hover": "#1250f2"
+            }
+          }
+        },
+        "block_order": [
+          "box_VXreaa",
+          "title_tmFPb6",
+          "richtext_pVayYC",
+          "button_feW4Cd"
+        ],
+        "settings": {
+          "container": "container",
+          "bgimg": "shopify:\/\/shop_images\/472241699419063450-8f2b9247-5e5c-4261-89ff-50b81adebc01.jpg",
+          "bgcolor": "",
+          "laptop_top": 0,
+          "laptop_bottom": 0,
+          "mobail_top": 64,
+          "mobail_bottom": 0,
+          "border_width": "0",
+          "border_color": "#d9d9d9"
+        }
+      }
+    },
+    "order": [
+      "main",
+      "zegsu-header-bar",
+      "skinnydipped_section_dGQkyE",
+      "skinnydipped_icon_box_6tdfU7",
+      "skinnydipped_about_us_P3MRrF",
+      "skinnydipped_icon_box_Lz7FEQ",
+      "skinnydipped_about_us_kVLpAY",
+      "skinnydipped_table_UfDAXb",
+      "skinnydipped_about_us_GYHn9k",
+      "skinnydipped_offer_banner_NdHUeN",
+      "skinnydipped_about_us_cThDex",
+      "skinnydipped_about_us_ABxL7j",
+      "skinnydipped_icon_box_z7rLr3",
+      "skinnydipped_about_us_RMFXb3",
+      "skinnydipped_about_us_DihHkx",
+      "skinnydipped_vs_section_MiG3ij",
+      "skinnydipped_bg_image_wDLfh7",
+      "skinnydipped_customers_UQHAkq",
+      "skinnydipped_bg_section_PzwUcX"
+    ]
+  }
+  
